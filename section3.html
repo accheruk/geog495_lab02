@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AFC</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Abstract</a>
+        <a href="section1.html">Section 1</a>
+        <a href="section2.html">Section 2</a>
+        <a class="active" href="section3.html">Section 3</a>
+        <a href="see_also.html">See Also</a>
+        <a href="references.html">References</a>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        The AFC is split into 4 divisions.
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'West')">West</button>
+            <button class="tablinks" onclick="openCity(event, 'East')">East</button>
+            <button class="tablinks" onclick="openCity(event, 'North')">North</button>
+            <button class="tablinks" onclick="openCity(event, 'South')">South</button>
+          </div>
+          
+          <div id="West" class="tabcontent">
+            <h3>West</h3>
+            <p>Kansas City Chiefs, Los Angeles Chargers, Las Vegas Raiders, Denver Broncos</p>
+          </div>
+          
+          <div id="East" class="tabcontent">
+            <h3>East</h3>
+            <p>Buffalo Bills, Miami Dolphins, New York Jets, New England Patriots</p>
+          </div>
+          
+          <div id="North" class="tabcontent">
+            <h3>North</h3>
+            <p>Baltimore Ravens, Cincinnati Bengals, Clevland Browns, Pittsburgh Steelers</p>
+          </div>
+
+          <div id="South" class="tabcontent">
+            <h3>South</h3>
+            <p>Tennessee Titans, Indianapolis Colts, Jacksonville Jaguars, Houston Texans</p>
+          </div>
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
